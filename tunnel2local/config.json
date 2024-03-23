@@ -1,5 +1,5 @@
 {
-  "name": "tunnel2local",
+  "name": "frpc",
   "version": "1.0.10",
   "slug": "tunnel2local",
   "description": "从互联网使用homeassistant",
@@ -7,7 +7,7 @@
   "url": "https://github.com/zhujisheng/hassio-addons/tree/master/tunnel2local",
   "startup": "services",
   "boot": "auto",
-  "image": "zhujisheng/{arch}-addon-frpc",
+  "image": "zhujisheng/{arch}-addon-tunnel2local",
   "options": {
     "frp_server": "frp_服务器",
     "frp_server_port": 7000,
