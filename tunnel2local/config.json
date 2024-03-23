@@ -1,21 +1,21 @@
 {
-  "name": "tunnel2local",
+  "name": "frpc",
   "version": "1.0.10",
-  "slug": "tunnel2local",
+  "slug": "frpc",
   "description": "Browser the Home Assistant From Internet",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/zhujisheng/hassio-addons/tree/master/tunnel2local",
+  "url": "https://github.com/jdbwlj/hassio-frpc",
   "startup": "services",
   "boot": "auto",
-  "image": "zhujisheng/{arch}-addon-tunnel2local",
+  "image": "zhujisheng/{arch}-addon-frpc",
   "options": {
-    "frp_server": "hachinafrps.duckdns.org",
+    "frp_server": "frp_服务器",
     "frp_server_port": 7000,
-    "frp_token": "5da55d512161ea774cb56d72913a3aed",
+    "frp_token": "frp_服务器_token",
     "local_host": "homeassistant",
     "local_port": 8123,
     "tunnel_type": "http",
-    "http_domain": "hachina.802154.com"
+    "http_domain": "xxx.xxx.xxx"
   },
   "schema": {
     "frp_server": "str",
