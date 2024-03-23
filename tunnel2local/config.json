@@ -15,7 +15,8 @@
     "local_host": "homeassistant",
     "local_port": 8123,
     "tunnel_type": "http",
-    "http_domain": "xxx.xxx.xxx"
+    "http_domain": "www.xxx.com",
+    "tcp_remote_port": "1024#"
   },
   "schema": {
     "frp_server": "str",
