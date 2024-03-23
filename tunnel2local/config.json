@@ -4,7 +4,7 @@
   "slug": "frpc",
   "description": "从互联网使用homeassistant",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/zhujisheng/hassio-addons/tree/master/tunnel2local",
+  "url": "https://github.com/jdbwlj/hassio-frpc",
   "startup": "services",
   "boot": "auto",
   "image": "zhujisheng/{arch}-addon-tunnel2local",
